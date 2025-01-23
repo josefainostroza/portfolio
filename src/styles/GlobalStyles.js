@@ -26,7 +26,7 @@ export const GlobalStyles = createGlobalStyle`
 
     body{
         padding: 0;
-
+        font-family: 'inter';
         height: 100%;
     width: 100%;
         /* background-color: ${({ colorFondo }) => colorFondo};  */

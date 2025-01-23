@@ -13,12 +13,16 @@ const StyledHeaderContainer = styled.header`
 const StyledNameJosefa = styled.h2`
 	font-size: 30px;
 	color: #fab413;
+	font-family: 'inter';
+	font-weight: 400;
 `;
 
 const StyledNameInostroza = styled.h2`
 	font-size: 30px;
 	color: #fab413;
 	margin-top: 2px;
+	font-family: 'inter';
+	font-weight: 600;
 `;
 
 const StyledContainerName = styled.div`

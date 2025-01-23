@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledContainer = styled.div`
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,7 +19,7 @@ const StyledCircle = styled.div`
 	&::before {
 		content: '';
 		position: absolute;
-		top: 50%;
+		top: 0%;
 		width: 400px;
 		height: 400px;
 		border-radius: 50%;
@@ -29,7 +30,7 @@ const StyledCircle = styled.div`
 	&::after {
 		content: '';
 		position: absolute;
-		top: 50%;
+		top: 0%;
 		width: 400px;
 		height: 400px;
 		border-radius: 50%;
@@ -40,17 +41,17 @@ const StyledCircle = styled.div`
 
 const StyledLogo = styled.img`
 	position: absolute;
-	width: 950px;
-	height: 950px;
-	top: 50%;
-	left: 50%;
+	width: 750px;
+	height: 750px;
+	top: 53%;
+	left: 53%;
 	transform: translate(-50%, -50%);
 	object-fit: contain;
 	z-index: 1;
 `;
 
 const StyledPorta = styled.h2`
-	top: 50%;
+	top: 40%;
 	font-size: 90px;
 	font-family: 'inter';
 	color: white;
@@ -62,6 +63,22 @@ const StyledName = styled.h2`
 	justify-content: space-between;
 	align-items: center;
 	gap: 550px;
-	top: 50%;
+	top: 40%;
 `;
-export { StyledContainer, StyledCircle, StyledLogo, StyledPorta, StyledName };
+
+const StyledIcono = styled.img`
+	position: fixed;
+	width: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 90%;
+`;
+export {
+	StyledContainer,
+	StyledCircle,
+	StyledLogo,
+	StyledPorta,
+	StyledName,
+	StyledIcono
+};

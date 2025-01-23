@@ -1,15 +1,21 @@
 import React from 'react';
-import { VisionContainer, Title, Description } from './vision.styles';
+import {
+	StyledVisionContainer,
+	StyledTitleVision,
+	StyledDescription
+} from './vision.styles';
 
 const Vision = () => {
 	return (
-		<VisionContainer data-scroll-section>
-			<Title>VISION</Title>
-			<Description>
-				Mi objetivo es crear experiencias digitales efectivas que impacten a los
-				usuarios, alineando diseño, creatividad y tecnología.
-			</Description>
-		</VisionContainer>
+		<StyledVisionContainer data-scroll-section>
+			<StyledTitleVision>VISION</StyledTitleVision>
+			<StyledDescription>
+				Mi objetivo es crear experiencias digitales enfocadas en la
+				investigación, el diseño y soluciones funcionales que realmente conecten
+				con las personas, mejoren el impacto de los productos y logren
+				resultados significativos.
+			</StyledDescription>
+		</StyledVisionContainer>
 	);
 };
 

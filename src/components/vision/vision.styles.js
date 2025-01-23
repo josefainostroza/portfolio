@@ -1,23 +1,29 @@
 import styled from 'styled-components';
 
-export const VisionContainer = styled.section`
+const StyledVisionContainer = styled.section`
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	justify-content: center;
-	/* background-color: #fdb927; */
-	color: #333;
+	align-items: center;
+	top: 0%;
+	right: 50%;
+	background-color: #e8c92e;
+	color: black;
+	gap: 68px;
+	padding: 300px;
 `;
 
-export const Title = styled.h1`
-	font-size: 3rem;
-	margin-bottom: 20px;
+const StyledTitleVision = styled.h1`
+	font-weight: 900;
+	font-size: 96px;
 `;
 
-export const Description = styled.p`
-	max-width: 60%;
-	text-align: center;
-	font-size: 1.2rem;
-	line-height: 1.6;
+const StyledDescription = styled.p`
+	font-weight: 400;
+	font-size: 40px;
+	width: 998px;
+	height: 425px;
 `;
+
+export { StyledVisionContainer, StyledTitleVision, StyledDescription };

@@ -3,6 +3,7 @@ import Hero from './components/hero/Hero';
 import Home from './components/home/Home';
 // import Scroll from './components/scrollcolorchanger/Scroll';
 import SidebarMenu from './components/siderbarMenu/SidebarMenu';
+import Vision from './components/vision/Vision';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
@@ -11,9 +12,10 @@ const App = () => {
 			<GlobalStyles />
 			{/* <Scroll /> */}
 			<SidebarMenu />
-			<Home />
 			<Header />
+			<Home />
 			<Hero />
+			<Vision />
 		</>
 	);
 };
