@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 const StyledContainer = styled.div`
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 `;
@@ -11,19 +10,17 @@ const StyledCircle = styled.div`
 	position: relative;
 	background-color: transparent;
 	border-radius: 50%;
-	width: 450px;
-	height: 450px;
+	width: 400px;
+	height: 400px;
 	display: flex;
 	justify-content: center;
-	align-items: center;
 
 	&::before {
 		content: '';
 		position: absolute;
-		top: -20px;
-		left: -20px;
-		right: -20px;
-		bottom: -20px;
+		top: 50%;
+		width: 400px;
+		height: 400px;
 		border-radius: 50%;
 		border: 20px solid #fab413;
 		filter: blur(20px);
@@ -32,10 +29,9 @@ const StyledCircle = styled.div`
 	&::after {
 		content: '';
 		position: absolute;
-		top: -20px;
-		left: -20px;
-		right: -20px;
-		bottom: -20px;
+		top: 50%;
+		width: 400px;
+		height: 400px;
 		border-radius: 50%;
 		border: 20px solid #fab413; /* El borde nítido, sin blur */
 		z-index: -1; /* Este borde va encima del borde borroso */
@@ -52,4 +48,20 @@ const StyledLogo = styled.img`
 	object-fit: contain;
 	z-index: 1;
 `;
-export { StyledContainer, StyledCircle, StyledLogo };
+
+const StyledPorta = styled.h2`
+	top: 50%;
+	font-size: 90px;
+	font-family: 'inter';
+	color: white;
+`;
+
+const StyledName = styled.h2`
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 550px;
+	top: 50%;
+`;
+export { StyledContainer, StyledCircle, StyledLogo, StyledPorta, StyledName };

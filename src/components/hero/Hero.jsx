@@ -5,7 +5,6 @@ const Hero = () => {
 	return (
 		<HeroContainer data-scroll-section>
 			<CircleBackground />
-			<SubTitle>Josefa Inostroza</SubTitle>
 		</HeroContainer>
 	);
 };

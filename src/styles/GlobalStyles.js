@@ -25,13 +25,19 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
+        padding: 0;
+
         height: 100%;
     width: 100%;
-        background-color: ${({ colorFondo }) => colorFondo}; 
+        /* background-color: ${({ colorFondo }) => colorFondo};  */
         transition: background-color 0.5s ease;
         overflow-x: hidden;
-        /* background-color: #191919; */
+        background-color: #191919;
 
             min-height: 100%    
-}   
+}  
+
+h1,h2,p{
+margin: 0;
+}
 `;

@@ -31,4 +31,5 @@ export const CircleBackground = styled.div`
 	background: radial-gradient(circle, #fdb927, transparent);
 	border-radius: 50%;
 	z-index: 1;
+	top: 50%;
 `;

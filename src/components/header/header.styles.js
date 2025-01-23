@@ -8,14 +8,34 @@ const StyledHeaderContainer = styled.header`
 	width: 100%;
 	background-color: transparent;
 	z-index: 100;
-	display: flex;
-	align-items: center;
-	padding: 0 20px;
 `;
 
+const StyledNameJosefa = styled.h2`
+	font-size: 30px;
+	color: #fab413;
+`;
+
+const StyledNameInostroza = styled.h2`
+	font-size: 30px;
+	color: #fab413;
+	margin-top: 2px;
+`;
+
+const StyledContainerName = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	align-items: end;
+	padding: 50px 77px;
+`;
 // const StyledLogo = styled.div`
 // 	font-size: 1.5rem;
 // 	color: #000;
 // 	font-weight: bold;
 // `;
-export { StyledHeaderContainer };
+export {
+	StyledHeaderContainer,
+	StyledNameJosefa,
+	StyledNameInostroza,
+	StyledContainerName
+};

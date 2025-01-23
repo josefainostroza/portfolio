@@ -1,9 +1,18 @@
 import React from 'react';
-import { StyledHeaderContainer } from './Header.styles';
+import {
+	StyledContainerName,
+	StyledHeaderContainer,
+	StyledNameInostroza,
+	StyledNameJosefa
+} from './Header.styles';
 
 const Header = () => {
 	return (
 		<StyledHeaderContainer>
+			<StyledContainerName>
+				<StyledNameJosefa>Josefa</StyledNameJosefa>
+				<StyledNameInostroza>Inostroza</StyledNameInostroza>
+			</StyledContainerName>
 			{/* <img src='./public/assets/LogoJI-02.png' alt='' /> */}
 		</StyledHeaderContainer>
 	);
