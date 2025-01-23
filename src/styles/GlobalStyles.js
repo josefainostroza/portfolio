@@ -24,4 +24,14 @@ export const GlobalStyles = createGlobalStyle`
         color: inherit;
     }
 
+    body{
+        height: 100%;
+    width: 100%;
+        background-color: ${({ colorFondo }) => colorFondo}; 
+        transition: background-color 0.5s ease;
+        overflow-x: hidden;
+        /* background-color: #191919; */
+
+            min-height: 100%    
+}   
 `;

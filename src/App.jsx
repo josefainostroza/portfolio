@@ -1,14 +1,20 @@
-import Button from './components/button/Button';
+import Header from './components/header/Header';
+import Hero from './components/hero/Hero';
+import Home from './components/home/Home';
+import Scroll from './components/scrollcolorchanger/Scroll';
+import SidebarMenu from './components/siderbarMenu/SidebarMenu';
 import { GlobalStyles } from './styles/GlobalStyles';
 
 const App = () => {
 	return (
-		<div>
+		<>
 			<GlobalStyles />
-			<h1>Curso de React</h1>
-			<Button color='steelblue'>Click Me!</Button>
-			<Button color='#f0f'>Click Me!</Button>
-		</div>
+			<Scroll />
+			<SidebarMenu />
+			<Home />
+			<Header />
+			<Hero />
+		</>
 	);
 };
 
