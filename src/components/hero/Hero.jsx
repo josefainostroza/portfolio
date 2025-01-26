@@ -13,7 +13,7 @@ import {
 
 const Hero = () => {
 	return (
-		<HeroContainer data-scroll-section>
+		<HeroContainer data-scroll-section id='about'>
 			<CircleBackground />
 			<StyledImgPersonal src='./public/assets/FotoPersonal.png' alt='img' />
 			<StyledContexText>

@@ -2,7 +2,7 @@ import { INFO_PROYECTS } from '../../../constants/info-proyects';
 
 const Valdivia = () => {
 	const infoproyect = INFO_PROYECTS.interaccion;
-	return <>{infoproyect.img[1]}</>;
+	return <div id='valdivia'>{infoproyect.img[1]}</div>;
 };
 
 export default Valdivia;

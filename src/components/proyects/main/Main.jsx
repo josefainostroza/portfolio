@@ -26,7 +26,7 @@ const Main = () => {
 	};
 
 	return (
-		<>
+		<div id='projects'>
 			<StyledTitle>PROYECTOS</StyledTitle>
 			<StyledContainerPar>
 				{TITLE_PROYECTS01.map(titleProyect01 => (
@@ -48,7 +48,6 @@ const Main = () => {
 										>
 											{titleProyect01[proyectKey]}
 
-											{/* Muestra la imagen solo si es el proyecto activo */}
 											{activeProject === projectId && (
 												<StyledImagePreview
 													src={titleProyect01[`image0${index + 1}`]}
@@ -70,7 +69,6 @@ const Main = () => {
 						<StyledContainerProyects>
 							<StyledTitleProyects>{titleProyect02.title}</StyledTitleProyects>
 
-							{/* Renderizamos los nombres de los proyectos */}
 							{Object.keys(titleProyect02)
 								.filter(key => key.includes('proyect'))
 								.map((proyectKey, index) => {
@@ -83,7 +81,6 @@ const Main = () => {
 										>
 											{titleProyect02[proyectKey]}
 
-											{/* Muestra la imagen solo si es el proyecto activo */}
 											{activeProject === projectId && (
 												<StyledImagePreview
 													src={titleProyect02[`image0${index + 1}`]}
@@ -97,7 +94,7 @@ const Main = () => {
 					</StyledContainer>
 				))}
 			</StyledContainerPar>
-		</>
+		</div>
 	);
 };
 

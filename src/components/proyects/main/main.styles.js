@@ -2,8 +2,8 @@ import styled from 'styled-components';
 
 const StyledImagePreview = styled.img`
 	position: absolute;
-	left: 105%; /* Ajusta según la posición deseada */
-	top: 50%;
+	left: 10%;
+	top: -300%;
 	transform: translateY(-50%);
 	width: 300px;
 	height: auto;
@@ -34,18 +34,15 @@ const StyledContainerPar = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
-	padding: 0 200px;
+	padding: 0 250px;
 `;
 
-const StyledTitleProyects = styled.h2`
+const StyledTitleProyects = styled.h3`
 	font-size: 30px;
 	font-weight: 800;
-	&:hover {
-		color: #fdb927;
-	}
 `;
 
-const StyledNameProyect = styled.div`
+const StyledNameProyect = styled.button`
 	font-size: 18px;
 	font-weight: 400;
 	width: 386px;
@@ -53,11 +50,14 @@ const StyledNameProyect = styled.div`
 	border: 1px solid white;
 	border-radius: 18px;
 	padding: 6px 32px;
-	position: relative; /* Necesario para posicionar la imagen relativa a este contenedor */
+	color: white;
+	background-color: transparent;
+	position: relative;
+	display: flex;
 
 	&:hover {
 		color: black;
-		background-color: #fdb927;
+		/* background-color: #fdb927; */
 	}
 `;
 
@@ -75,7 +75,7 @@ const StyledTitle = styled.h1`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 120px 120px 0px 120px;
+	padding: 120px 120px 50px 120px;
 `;
 
 export {
