@@ -36,7 +36,10 @@ const ProjectDetails = () => {
 				Asignature: project.Asignature,
 				teacher: project.teacher,
 				team: project.team,
-				img02: project.img02
+				img02: project.img02,
+				titledescription: project.titledescription,
+				img05: project.img05,
+				img06: project.img06
 			};
 			break;
 		}
@@ -48,8 +51,8 @@ const ProjectDetails = () => {
 
 	return (
 		<StyledContainerProjects>
-			<StyledTitle>{projectData.title}</StyledTitle>
-			<StyledSubTitle>{projectData.subtitle}</StyledSubTitle>
+			{/* <StyledTitle>{projectData.title}</StyledTitle>
+			<StyledSubTitle>{projectData.subtitle}</StyledSubTitle> */}
 			<StyledImgProjects src={projectData.img} alt='' />
 			<StyledContainerMiniDescription>
 				<StyledMiniDescription>{projectData.Asignature}</StyledMiniDescription>
@@ -58,13 +61,17 @@ const ProjectDetails = () => {
 				<StyledMiniDescription>{projectData.team}</StyledMiniDescription>
 				<StyledMiniDescription>{projectData.rol}</StyledMiniDescription>
 			</StyledContainerMiniDescription>
-			<StyledtitleInfoProyect>DESCRIPCIÓN DEL PROYECTO</StyledtitleInfoProyect>
+			<StyledtitleInfoProyect>
+				{projectData.titledescription}
+			</StyledtitleInfoProyect>
 			<StyledInfoProyect>{projectData.info}</StyledInfoProyect>
 			<StyledContainerProgram>
 				<StyledImgProgram src={projectData.program01} alt='' />
 				<StyledImgProgram src={projectData.program02} alt='' />
 			</StyledContainerProgram>
 			<img src={projectData.img02} alt='' />
+			<img src={projectData.img05} alt='' />
+			<img src={projectData.img06} alt='' />
 			<StyledVideoProjects src={projectData.video} alt='' />
 		</StyledContainerProjects>
 	);

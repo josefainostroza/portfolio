@@ -27,6 +27,7 @@ const StyledSubTitle = styled.p`
 
 const StyledImgProjects = styled.img`
 	width: 100%;
+	margin-top: -50px;
 	object-fit: cover;
 	object-position: 50% 50%;
 	max-width: 100%;
@@ -61,7 +62,7 @@ const StyledtitleInfoProyect = styled.p`
 	font-weight: 700;
 `;
 const StyledVideoProjects = styled.img`
-	width: 946px;
+	width: 100%;
 	object-fit: cover;
 	object-position: 50% 50%;
 	max-width: 100%;
@@ -75,6 +76,7 @@ const StyledContainerProgram = styled.div`
 const StyledImgProgram = styled.img`
 	width: 70px;
 `;
+
 export {
 	StyledContainerProjects,
 	StyledTitle,
