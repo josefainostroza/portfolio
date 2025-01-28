@@ -1,53 +1,111 @@
-import { v4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
 export const TITLE_PROYECTS01 = [
 	{
-		id: v4(),
+		id: uuidv4(),
 		title: 'DISEÑO UX/UI',
-		proyect01: 'Trailbi',
-		image01: './public/assets/Trailbi.png',
-		proyect02: 'Emigra Fácil',
-		image02: './public/assets/EmigraFacil.png',
-		proyect03: 'BuMu',
-		image03: './public/assets/BUMU.png',
-		proyect04: 'Techo',
-		image04: './public/assets/TechoParaChile.png'
+		projects: [
+			{
+				name: 'Trailbi',
+				image: './public/assets/Trailbi.png',
+				slug: 'trailbi'
+			},
+			{
+				name: 'Emigra Fácil',
+				image: './public/assets/EmigraFacil.png',
+				slug: 'emigra-facil'
+			},
+			{
+				name: 'BuMu',
+				image: './public/assets/BUMU.png',
+				slug: 'bumu'
+			},
+			{
+				name: 'Techo',
+				image: './public/assets/TechoParaChile.png',
+				slug: 'techo'
+			}
+		]
 	},
 	{
-		id: v4(),
+		id: uuidv4(),
 		title: 'DESARROLLO WEB FRONT-END',
-		proyect01: 'space-tourism-website',
-		image01: './public/assets/space-tourism-website.png',
-		proyect02: 'Product-list-with-cart (1)',
-		image02: './public/assets/Product-list.png',
-		proyect03: 'Interactive-card-details-form',
-		image03: './public/assets/Interactive-card.png',
-		proyect04: 'Sunnyside-agency-landing-page',
-		image04: './public/assets/Sunnyside-agency.png',
-		proyect05: 'Todo App',
-		image05: './public/assets/todo-app.jpg'
+		projects: [
+			{
+				name: 'Space Tourism Website',
+				image: './public/assets/space-tourism-website.png',
+				slug: 'space-tourism-website'
+			},
+			{
+				name: 'Product List with Cart',
+				image: './public/assets/Product-list.png',
+				slug: 'product-list-cart'
+			},
+			{
+				name: 'Interactive Card Details Form',
+				image: './public/assets/Interactive-card.png',
+				slug: 'interactive-card-form'
+			},
+			{
+				name: 'Sunnyside Agency Landing Page',
+				image: './public/assets/Sunnyside-agency.png',
+				slug: 'sunnyside-agency'
+			},
+			{
+				name: 'Todo App',
+				image: './public/assets/todo-app.jpg',
+				slug: 'todo-app'
+			}
+		]
 	}
 ];
+
 export const TITLE_PROYECTS02 = [
 	{
-		id: v4(),
+		id: uuidv4(),
 		title: 'DISEÑO DE INTERACCIÓN',
-		proyect01: 'Conqui Planet',
-		image01: './public/assets/ConquiPlanet.png',
-		proyect02: 'Lugares en Valdivia y su Accesibilidad',
-		image02: './public/assets/LugaresDeValdivia.png',
-		proyect03: 'Limpieza de frutas para niños'
+		projects: [
+			{
+				name: 'Conqui Planet',
+				image: './public/assets/ConquiPlanet.png',
+				slug: 'conqui-planet'
+			},
+			{
+				name: 'Lugares en Valdivia y su Accesibilidad',
+				image: './public/assets/LugaresDeValdivia.png',
+				slug: 'lugares-valdivia'
+			},
+			{
+				name: 'Limpieza de frutas para niños',
+				image: './public/assets/LugaresDeValdivia.png',
+				slug: 'limpieza-frutas'
+			}
+		]
 	},
 	{
-		id: v4(),
+		id: uuidv4(),
 		title: 'DISEÑO GRÁFICO',
-		proyect01: 'Redes Sociales',
-		image01: './public/assets/RedesSociales.jpg',
-		proyect02: 'Branding',
-		image02: './public/assets/logobranding.png',
-		proyect03: 'Presidiaria',
-		image03: './public/assets/portadaletra.png',
-		proyect04: 'Fotografía y Photoshop',
-		image04: './public/assets/Fotografia.jpg'
+		projects: [
+			{
+				name: 'Redes Sociales',
+				image: './public/assets/RedesSociales.jpg',
+				slug: 'redes-sociales'
+			},
+			{
+				name: 'Branding',
+				image: './public/assets/logobranding.png',
+				slug: 'branding'
+			},
+			{
+				name: 'Presidiaria',
+				image: './public/assets/portadaletra.png',
+				slug: 'presidiaria'
+			},
+			{
+				name: 'Fotografía y Photoshop',
+				image: './public/assets/Fotografia.jpg',
+				slug: 'fotografia-photoshop'
+			}
+		]
 	}
 ];

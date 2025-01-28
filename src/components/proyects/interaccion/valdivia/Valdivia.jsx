@@ -1,4 +1,4 @@
-import { INFO_PROYECTS } from '../../../constants/info-proyects';
+import { INFO_PROYECTS } from '../../../constants/project-details';
 
 const Valdivia = () => {
 	const infoproyect = INFO_PROYECTS.interaccion;

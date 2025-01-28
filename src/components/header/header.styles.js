@@ -2,9 +2,6 @@ import styled from 'styled-components';
 
 const StyledHeaderContainer = styled.header`
 	position: fixed;
-	top: 0;
-	left: 0;
-	height: 60px;
 	width: 100%;
 	background-color: transparent;
 	z-index: 100;
@@ -13,7 +10,6 @@ const StyledHeaderContainer = styled.header`
 const StyledNameJosefa = styled.h2`
 	font-size: 30px;
 	color: #fab413;
-	font-family: 'inter';
 	font-weight: 400;
 `;
 
@@ -21,7 +17,6 @@ const StyledNameInostroza = styled.h2`
 	font-size: 30px;
 	color: #fab413;
 	margin-top: 2px;
-	font-family: 'inter';
 	font-weight: 600;
 `;
 

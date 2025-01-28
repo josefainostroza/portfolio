@@ -57,7 +57,7 @@ const StyledNameProyect = styled.button`
 
 	&:hover {
 		color: black;
-		/* background-color: #fdb927; */
+		background-color: #fdb927;
 	}
 `;
 

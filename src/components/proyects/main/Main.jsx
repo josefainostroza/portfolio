@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import {
 	TITLE_PROYECTS01,
 	TITLE_PROYECTS02
@@ -16,6 +17,7 @@ import {
 
 const Main = () => {
 	const [activeProject, setActiveProject] = useState(null);
+	const navigate = useNavigate(); // Hook para la navegación
 
 	const handleMouseEnter = projectId => {
 		setActiveProject(projectId); // Activa el proyecto actual
@@ -25,74 +27,51 @@ const Main = () => {
 		setActiveProject(null); // Resetea cuando el mouse sale
 	};
 
+	const handleProjectClick = slug => {
+		navigate(`/projects/${slug}`);
+	};
+
+	const renderProjects = projectGroup =>
+		projectGroup.map(category => (
+			<StyledContainer key={category.id}>
+				<StyledLine />
+				<StyledContainerProyects>
+					<StyledTitleProyects>{category.title}</StyledTitleProyects>
+
+					{/* Renderizamos los nombres de los proyectos */}
+					{category.projects.map(project => {
+						const projectId = `${category.id}-${project.slug}`;
+						return (
+							<StyledNameProyect
+								key={projectId}
+								onMouseEnter={() => handleMouseEnter(projectId)}
+								onMouseLeave={handleMouseLeave}
+								onClick={() => handleProjectClick(project.slug)}
+							>
+								{project.name}
+
+								{/* Muestra una previsualización de la imagen si el proyecto está activo */}
+								{activeProject === projectId && (
+									<StyledImagePreview
+										src={project.image}
+										alt={`Preview de ${project.name}`}
+									/>
+								)}
+							</StyledNameProyect>
+						);
+					})}
+				</StyledContainerProyects>
+			</StyledContainer>
+		));
+
 	return (
 		<div id='projects'>
 			<StyledTitle>PROYECTOS</StyledTitle>
 			<StyledContainerPar>
-				{TITLE_PROYECTS01.map(titleProyect01 => (
-					<StyledContainer key={titleProyect01.id}>
-						<StyledLine />
-						<StyledContainerProyects>
-							<StyledTitleProyects>{titleProyect01.title}</StyledTitleProyects>
-
-							{/* Renderizamos los nombres de los proyectos */}
-							{Object.keys(titleProyect01)
-								.filter(key => key.includes('proyect'))
-								.map((proyectKey, index) => {
-									const projectId = `${titleProyect01.id}-${proyectKey}`;
-									return (
-										<StyledNameProyect
-											key={projectId}
-											onMouseEnter={() => handleMouseEnter(projectId)}
-											onMouseLeave={handleMouseLeave}
-										>
-											{titleProyect01[proyectKey]}
-
-											{activeProject === projectId && (
-												<StyledImagePreview
-													src={titleProyect01[`image0${index + 1}`]}
-													alt='Preview del proyecto'
-												/>
-											)}
-										</StyledNameProyect>
-									);
-								})}
-						</StyledContainerProyects>
-					</StyledContainer>
-				))}
+				{renderProjects(TITLE_PROYECTS01)}
 			</StyledContainerPar>
-
 			<StyledContainerPar>
-				{TITLE_PROYECTS02.map(titleProyect02 => (
-					<StyledContainer key={titleProyect02.id}>
-						<StyledLine />
-						<StyledContainerProyects>
-							<StyledTitleProyects>{titleProyect02.title}</StyledTitleProyects>
-
-							{Object.keys(titleProyect02)
-								.filter(key => key.includes('proyect'))
-								.map((proyectKey, index) => {
-									const projectId = `${titleProyect02.id}-${proyectKey}`;
-									return (
-										<StyledNameProyect
-											key={projectId}
-											onMouseEnter={() => handleMouseEnter(projectId)}
-											onMouseLeave={handleMouseLeave}
-										>
-											{titleProyect02[proyectKey]}
-
-											{activeProject === projectId && (
-												<StyledImagePreview
-													src={titleProyect02[`image0${index + 1}`]}
-													alt='Preview del proyecto'
-												/>
-											)}
-										</StyledNameProyect>
-									);
-								})}
-						</StyledContainerProyects>
-					</StyledContainer>
-				))}
+				{renderProjects(TITLE_PROYECTS02)}
 			</StyledContainerPar>
 		</div>
 	);

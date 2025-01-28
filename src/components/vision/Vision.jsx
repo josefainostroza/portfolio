@@ -8,7 +8,7 @@ import {
 const Vision = () => {
 	return (
 		<StyledVisionContainer data-scroll-section>
-			<StyledTitleVision>VISION</StyledTitleVision>
+			<StyledTitleVision>MISIÓN</StyledTitleVision>
 			<StyledDescription>
 				Mi objetivo es crear experiencias digitales enfocadas en la
 				investigación, el diseño y soluciones funcionales que realmente conecten
