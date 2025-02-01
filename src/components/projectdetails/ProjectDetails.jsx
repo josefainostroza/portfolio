@@ -9,8 +9,8 @@ import {
 	StyledImgProjects,
 	StyledInfoProyect,
 	StyledMiniDescription,
-	StyledSubTitle,
-	StyledTitle,
+	// StyledSubTitle,
+	// StyledTitle,
 	StyledtitleInfoProyect,
 	StyledVideoProjects
 } from './project';
@@ -72,6 +72,7 @@ const ProjectDetails = () => {
 			<img src={projectData.img02} alt='' />
 			<img src={projectData.img05} alt='' />
 			<img src={projectData.img06} alt='' />
+
 			<StyledVideoProjects src={projectData.video} alt='' />
 		</StyledContainerProjects>
 	);

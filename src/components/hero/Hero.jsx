@@ -8,14 +8,13 @@ import {
 	StyledContexText,
 	StyledContainerLinks,
 	StyledButton,
-	StyledLinks
+	StyledLinks,
+	StyledContainerImgCircle
 } from './hero.styles';
 
 const Hero = () => {
 	return (
 		<HeroContainer data-scroll-section id='about'>
-			<CircleBackground />
-			<StyledImgPersonal src='./public/assets/FotoPersonal.png' alt='img' />
 			<StyledContexText>
 				<div>
 					<StyledTitle>¡Hola! Soy Josefa</StyledTitle>
@@ -48,6 +47,10 @@ const Hero = () => {
 					Descargar CV
 				</StyledButton>
 			</StyledContexText>
+			<StyledContainerImgCircle>
+				<CircleBackground />
+				<StyledImgPersonal src='./public/assets/FotoPersonal.png' alt='img' />
+			</StyledContainerImgCircle>
 		</HeroContainer>
 	);
 };

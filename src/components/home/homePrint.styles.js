@@ -37,6 +37,28 @@ const StyledCircle = styled.div`
 		border: 20px solid #fab413; /* El borde nítido, sin blur */
 		z-index: -1; /* Este borde va encima del borde borroso */
 	}
+
+	@media (max-width: 1024px) {
+		width: 300px;
+		height: 300px;
+		&::before,
+		&::after {
+			width: 300px;
+			height: 300px;
+			border-width: 15px;
+		}
+	}
+
+	@media (max-width: 768px) {
+		width: 250px;
+		height: 250px;
+		&::before,
+		&::after {
+			width: 250px;
+			height: 250px;
+			border-width: 10px;
+		}
+	}
 `;
 
 const StyledLogo = styled.img`
@@ -48,6 +70,16 @@ const StyledLogo = styled.img`
 	transform: translate(-50%, -50%);
 	object-fit: contain;
 	z-index: 1;
+
+	@media (max-width: 1024px) {
+		width: 300px;
+		height: 300px;
+	}
+
+	@media (max-width: 768px) {
+		width: 250px;
+		height: 250px;
+	}
 `;
 
 const StyledPorta = styled.h2`
@@ -55,15 +87,39 @@ const StyledPorta = styled.h2`
 	font-size: 90px;
 	font-family: 'inter';
 	color: white;
+
+	@media (max-width: 768px) {
+		font-size: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+	}
+	@media (max-width: 480px) {
+		font-size: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: start;
+		margin-top: -120%;
+	}
 `;
 
-const StyledName = styled.h2`
+const StyledName = styled.div`
 	position: absolute;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 550px;
 	top: 40%;
+
+	@media (max-width: 1024px) {
+		gap: 5px;
+	}
+
+	@media (max-width: 768px) {
+		gap: 2px;
+	}
 `;
 
 const StyledIcono = styled.img`
@@ -73,7 +129,16 @@ const StyledIcono = styled.img`
 	justify-content: center;
 	align-items: center;
 	top: 90%;
+
+	@media (max-width: 1024px) {
+		top: 93%;
+	}
+
+	@media (max-width: 768px) {
+		top: 95%;
+	}
 `;
+
 export {
 	StyledContainer,
 	StyledCircle,

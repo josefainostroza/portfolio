@@ -4,7 +4,7 @@ import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
 import Home from './components/home/Home';
 import Main from './components/proyects/main/Main';
-import SidebarMenu from './components/siderbarMenu/SidebarMenu';
+// import SidebarMenu from './components/siderbarMenu/SidebarMenu';
 import Vision from './components/vision/Vision';
 import { GlobalStyles } from './styles/GlobalStyles';
 import ProjectDetails from './components/projectdetails/ProjectDetails';
@@ -13,7 +13,7 @@ const App = () => {
 	return (
 		<Router>
 			<GlobalStyles />
-			<SidebarMenu />
+			{/* <SidebarMenu /> */}
 			<Header />
 			<Routes>
 				{/* Ruta principal con Home, Hero, Vision y Main */}
