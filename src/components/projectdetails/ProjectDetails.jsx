@@ -1,6 +1,5 @@
-import React from 'react';
 import { useParams } from 'react-router-dom';
-import { PROJECT_DETAILS } from '../constants/project-details';
+import { PROJECT_DETAILS } from '../../constants/project-details';
 import {
 	StyledContainerMiniDescription,
 	StyledContainerProgram,

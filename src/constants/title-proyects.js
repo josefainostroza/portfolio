@@ -34,27 +34,32 @@ export const TITLE_PROYECTS01 = [
 			{
 				name: 'Space Tourism Website',
 				image: './public/assets/space-tourism-website.png',
-				slug: 'space-tourism-website'
+				slug: 'space-tourism-website',
+				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
 				name: 'Product List with Cart',
 				image: './public/assets/Product-list.png',
-				slug: 'product-list-cart'
+				slug: 'product-list-cart',
+				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
 				name: 'Interactive Card Details Form',
 				image: './public/assets/Interactive-card.png',
-				slug: 'interactive-card-form'
+				slug: 'interactive-card-form',
+				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
 				name: 'Sunnyside Agency Landing Page',
 				image: './public/assets/Sunnyside-agency.png',
-				slug: 'sunnyside-agency'
+				slug: 'sunnyside-agency',
+				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
 				name: 'Todo App',
 				image: './public/assets/todo-app.jpg',
-				slug: 'todo-app'
+				slug: 'todo-app',
+				url: 'https://github.com/josefainostroza/portfolio'
 			}
 		]
 	}

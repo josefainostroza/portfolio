@@ -1,17 +1,16 @@
-import React from 'react';
 import {
-	HeroContainer,
 	CircleBackground,
-	StyledImgPersonal,
-	StyledText,
-	StyledTitle,
-	StyledContexText,
-	StyledContainerLinks,
+	HeroContainer,
 	StyledButton,
-	StyledLinks,
+	Styledcontainericons,
 	StyledContainerImgCircle,
+	StyledContainerLinks,
+	StyledContexText,
 	Styledimgicons,
-	Styledcontainericons
+	StyledImgPersonal,
+	StyledLinks,
+	StyledText,
+	StyledTitle
 } from './hero.styles';
 
 const Hero = () => {

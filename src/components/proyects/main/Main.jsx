@@ -1,23 +1,18 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import {
-	TITLE_PROYECTS01,
-	TITLE_PROYECTS02
-} from '../../constants/title-proyects';
+import { useState } from 'react';
+import { TITLE_PROYECTS01, TITLE_PROYECTS02 } from '../../../constants/title-proyects';
 import {
 	StyledContainer,
 	StyledContainerPar,
 	StyledContainerProyects,
+	StyledImagePreview,
 	StyledLine,
 	StyledNameProyect,
 	StyledTitle,
-	StyledTitleProyects,
-	StyledImagePreview
+	StyledTitleProyects
 } from './main.styles';
 
 const Main = () => {
 	const [activeProject, setActiveProject] = useState(null);
-	const navigate = useNavigate(); // Hook para la navegación
 
 	const handleMouseEnter = projectId => {
 		setActiveProject(projectId); // Activa el proyecto actual
@@ -27,8 +22,8 @@ const Main = () => {
 		setActiveProject(null); // Resetea cuando el mouse sale
 	};
 
-	const handleProjectClick = slug => {
-		navigate(`/projects/${slug}`);
+	const handleProjectClick = url => {
+		window.location.href = url
 	};
 
 	const renderProjects = projectGroup =>
@@ -46,7 +41,7 @@ const Main = () => {
 								key={projectId}
 								onMouseEnter={() => handleMouseEnter(projectId)}
 								onMouseLeave={handleMouseLeave}
-								onClick={() => handleProjectClick(project.slug)}
+								onClick={() => handleProjectClick(project.url)}
 							>
 								{project.name}
 
