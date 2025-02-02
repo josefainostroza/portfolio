@@ -9,7 +9,9 @@ import {
 	StyledContainerLinks,
 	StyledButton,
 	StyledLinks,
-	StyledContainerImgCircle
+	StyledContainerImgCircle,
+	Styledimgicons,
+	Styledcontainericons
 } from './hero.styles';
 
 const Hero = () => {
@@ -29,15 +31,24 @@ const Hero = () => {
 					</StyledText>
 				</div>
 				<StyledContainerLinks>
-					<StyledLinks href='https://www.linkedin.com/in/josefa-inostroza-gonz%C3%A1lez-1b262224b/'>
-						Linkedin
-					</StyledLinks>
-					<StyledLinks href='https://github.com/josefainostroza?tab=repositories'>
-						Github
-					</StyledLinks>
-					<StyledLinks href='mailto:josefainostrozag@gmail.com'>
-						Gmail
-					</StyledLinks>
+					<Styledcontainericons>
+						<Styledimgicons src='assets/programs/Linkedin.png' alt='' />
+						<StyledLinks href='https://www.linkedin.com/in/josefa-inostroza-gonz%C3%A1lez-1b262224b/'>
+							Linkedin
+						</StyledLinks>
+					</Styledcontainericons>
+					<Styledcontainericons>
+						<Styledimgicons src='assets/programs/Github.png' alt='' />
+						<StyledLinks href='https://github.com/josefainostroza?tab=repositories'>
+							Github
+						</StyledLinks>
+					</Styledcontainericons>
+					<Styledcontainericons>
+						<Styledimgicons src='assets/programs/gmail.png' alt='' />
+						<StyledLinks href='mailto:josefainostrozag@gmail.com'>
+							Gmail
+						</StyledLinks>
+					</Styledcontainericons>
 				</StyledContainerLinks>
 				<StyledButton
 					onClick={() => {

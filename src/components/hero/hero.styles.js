@@ -64,7 +64,8 @@ const CircleBackground = styled.div`
 	background-color: transparent;
 	border-radius: 50%;
 	z-index: 1;
-	top: 5%;
+	margin-left: 50%;
+	margin-top: 9%;
 
 	&::before {
 		content: '';
@@ -75,6 +76,8 @@ const CircleBackground = styled.div`
 		border: 20px solid #fab413;
 		filter: blur(20px);
 		z-index: -2;
+		margin-left: 50%;
+		margin-top: 9%;
 
 		@media (max-width: 480px) {
 			width: 200px;
@@ -95,6 +98,8 @@ const CircleBackground = styled.div`
 		border-radius: 50%;
 		background-color: #fab413; /* El borde nítido, sin blur */
 		z-index: -1;
+		margin-left: 50%;
+		margin-top: 9%;
 
 		@media (max-width: 480px) {
 			width: 200px;
@@ -112,9 +117,13 @@ const StyledImgPersonal = styled.img`
 	position: absolute;
 	width: 400px;
 	z-index: 1;
+	margin-left: 20%;
+	margin-top: 9%;
 
 	@media (max-width: 480px) {
 		width: 200px;
+		margin-left: 0%;
+		margin-top: 0%;
 	}
 
 	@media (max-width: 768px) {
@@ -167,6 +176,16 @@ const StyledButton = styled.button`
 		padding: 10px;
 	}
 `;
+const Styledimgicons = styled.img`
+	width: 30px;
+	height: 30px;
+`;
+const Styledcontainericons = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+`;
 
 export {
 	HeroContainer,
@@ -178,5 +197,7 @@ export {
 	StyledContainerLinks,
 	StyledLinks,
 	StyledButton,
-	StyledContainerImgCircle
+	StyledContainerImgCircle,
+	Styledimgicons,
+	Styledcontainericons
 };
