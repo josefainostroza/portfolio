@@ -58,7 +58,7 @@ const Hero = () => {
 				</StyledHeroContainer>
 				<StyledContainerImgCircle>
 					{/* <CircleBackground /> */}
-					<StyledImgPersonal src='./public/assets/FotoPersonal.png' alt='img' />
+					<StyledImgPersonal src='/assets/FotoPersonal.png' alt='img' />
 				</StyledContainerImgCircle>
 			</StyledContexText>
 		</HeroContainer>
