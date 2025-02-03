@@ -1,4 +1,3 @@
-import React from 'react';
 import {
 	StyledCircle,
 	StyledContainer,
@@ -15,9 +14,9 @@ const Home = () => {
 				<StyledPorta>PORTA</StyledPorta>
 				<StyledPorta>FOLIO</StyledPorta>
 			</StyledName>
-			<StyledLogo src='./public/assets/LogoJI-02.png' alt='Logo' />
+			<StyledLogo src='/assets/LogoJI-02.png' alt='Logo' />
 			<StyledCircle></StyledCircle>
-			<StyledIcono src='./public/assets/IconoDeslizar.png' alt='Icono' />
+			<StyledIcono src='/assets/IconoDeslizar.png' alt='Icono' />
 		</StyledContainer>
 	);
 };

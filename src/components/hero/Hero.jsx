@@ -36,13 +36,13 @@ const Hero = () => {
 							</StyledLinks>
 						</Styledcontainericons>
 						<Styledcontainericons>
-							<Styledimgicons src='assets/programs/Github.png' alt='' />
+							<Styledimgicons src='/assets/programs/Github.png' alt='' />
 							<StyledLinks href='https://github.com/josefainostroza?tab=repositories'>
 								Github
 							</StyledLinks>
 						</Styledcontainericons>
 						<Styledcontainericons>
-							<Styledimgicons src='assets/programs/gmail.png' alt='' />
+							<Styledimgicons src='/assets/programs/gmail.png' alt='' />
 							<StyledLinks href='mailto:josefainostrozag@gmail.com'>
 								Gmail
 							</StyledLinks>
