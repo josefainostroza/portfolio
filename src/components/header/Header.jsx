@@ -1,10 +1,8 @@
-import React from 'react';
 import {
 	StyledContainerName,
-	StyledHeaderContainer,
 	StyledNameInostroza,
 	StyledNameJosefa
-} from './Header.styles';
+} from './header.style';
 
 const Header = () => {
 	return (

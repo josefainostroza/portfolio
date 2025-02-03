@@ -1,5 +1,4 @@
 import {
-	CircleBackground,
 	HeroContainer,
 	StyledButton,
 	Styledcontainericons,
