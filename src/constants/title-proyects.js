@@ -18,7 +18,8 @@ export const TITLE_PROYECTS01 = [
 			{
 				name: 'BuMu',
 				image: './public/assets/BUMU.png',
-				slug: 'bumu'
+				slug: 'bumu',
+				url: 'https://www.figma.com/proto/lDtmVFqyoXua3H8qWjuARk/App-Museo?node-id=635-7050&t=W0k5iUSevV1GZ9WT-1&scaling=scale-down-width&content-scaling=fixed&page-id=422%3A7063&starting-point-node-id=635%3A7050'
 			},
 			{
 				name: 'Techo',
