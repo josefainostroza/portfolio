@@ -21,11 +21,10 @@ const StyledNameInostroza = styled.h2`
 `;
 
 const StyledContainerName = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: end;
-	align-items: end;
-	padding: 50px 77px;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	text-align: right;
 `;
 // const StyledLogo = styled.div`
 // 	font-size: 1.5rem;

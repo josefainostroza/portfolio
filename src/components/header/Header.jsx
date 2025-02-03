@@ -8,13 +8,10 @@ import {
 
 const Header = () => {
 	return (
-		<StyledHeaderContainer>
-			<StyledContainerName>
-				<StyledNameJosefa>Josefa</StyledNameJosefa>
-				<StyledNameInostroza>Inostroza</StyledNameInostroza>
-			</StyledContainerName>
-			{/* <img src='./public/assets/LogoJI-02.png' alt='' /> */}
-		</StyledHeaderContainer>
+		<StyledContainerName>
+			<StyledNameJosefa>Josefa</StyledNameJosefa>
+			<StyledNameInostroza>Inostroza</StyledNameInostroza>
+		</StyledContainerName>
 	);
 };
 

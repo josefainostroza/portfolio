@@ -9,17 +9,17 @@ const HeroContainer = styled.div`
 	background-color: #71178c;
 	color: #fff;
 
-	@media (max-width: 480px) {
+	@media (max-width: 768px) {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
+		height: auto;
 	}
 `;
 
 const StyledTitle = styled.h2`
 	font-weight: 900;
-	margin-bottom: 25px;
 	font-size: 30px;
 
 	@media (max-width: 768px) {
@@ -38,22 +38,26 @@ const StyledText = styled.p`
 `;
 
 const StyledContexText = styled.div`
-	position: absolute;
 	font-family: 'inter';
 	color: white;
-	width: 497px;
-	height: 370px;
+	/* width: 497px; */
 	padding: 25px;
-	left: 10%;
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 30px;
 
+	@media (max-width: 768px) {
+		flex-direction: column;
+	}
+`;
+
+const StyledHeroContainer = styled.div`
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 500px;
 	@media (max-width: 480px) {
-		width: 300px;
-		height: 370px;
 	}
 `;
 
@@ -115,11 +119,11 @@ const CircleBackground = styled.div`
 
 const StyledImgPersonal = styled.img`
 	position: absolute;
+	top: -53px;
+	left: 0;
 	width: 400px;
 	z-index: 1;
-	margin-left: 20%;
-	margin-top: 9%;
-
+	/* 
 	@media (max-width: 480px) {
 		width: 200px;
 		margin-left: 0%;
@@ -128,13 +132,22 @@ const StyledImgPersonal = styled.img`
 
 	@media (max-width: 768px) {
 		width: 200px;
-	}
+	} */
 `;
 const StyledContainerImgCircle = styled.div`
-	display: flex;
+	/* display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: center; */
+	min-width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-color: #fab413;
+	position: relative;
+
+	@media (max-width: 768px) {
+		margin-bottom: 120px;
+	}
 `;
 
 const StyledContainerLinks = styled.div`
@@ -199,5 +212,6 @@ export {
 	StyledButton,
 	StyledContainerImgCircle,
 	Styledimgicons,
-	Styledcontainericons
+	Styledcontainericons,
+	StyledHeroContainer
 };
