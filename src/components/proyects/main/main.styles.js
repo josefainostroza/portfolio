@@ -16,11 +16,7 @@ const StyledImagePreview = styled.img`
 	@media (max-width: 768px) {
 		width: 200px; // Reducimos el tamaño de la imagen en tabletas
 		left: 5%;
-	}
-
-	@media (max-width: 480px) {
-		width: 150px; // Ajustamos el tamaño de la imagen en móviles
-		left: 0;
+		display: none;
 	}
 `;
 
