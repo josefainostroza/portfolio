@@ -15,6 +15,7 @@ const HeroContainer = styled.div`
 		align-items: center;
 		justify-content: center;
 		height: auto;
+		width: 100%;
 	}
 `;
 
@@ -45,19 +46,26 @@ const StyledContexText = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 30px;
+	gap: 120px;
 
 	@media (max-width: 768px) {
 		flex-direction: column;
+		padding: 0px;
+		gap: 40px;
+		margin-top: 60px;
+		bottom: 0;
 	}
 `;
 
 const StyledHeroContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	max-width: 500px;
-	@media (max-width: 480px) {
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	max-width: 560px;
+	@media (max-width: 768px) {
+		padding: 0 40px;
 	}
 `;
 
@@ -146,7 +154,9 @@ const StyledContainerImgCircle = styled.div`
 	position: relative;
 
 	@media (max-width: 768px) {
-		margin-bottom: 120px;
+		margin-bottom: 98px;
+		min-width: 300px;
+		height: 300px;
 	}
 `;
 
@@ -157,7 +167,7 @@ const StyledContainerLinks = styled.div`
 	font-weight: 700;
 
 	@media (max-width: 768px) {
-		gap: 15px;
+		gap: 25px;
 	}
 `;
 
@@ -176,8 +186,12 @@ const StyledButton = styled.button`
 	border: 1px solid #fab413;
 	border-radius: 23px;
 	color: white;
-	padding: 10px 90px;
+	padding: 10px 80px;
 	transition: color 0.3s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
 
 	&:hover {
 		background-color: #fdb927;
@@ -192,12 +206,20 @@ const StyledButton = styled.button`
 const Styledimgicons = styled.img`
 	width: 30px;
 	height: 30px;
+	@media (max-width: 768px) {
+		width: 24px;
+		height: 24px;
+	}
 `;
 const Styledcontainericons = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 10px;
+	gap: 20px;
+
+	@media (max-width: 768px) {
+		gap: 5px;
+	}
 `;
 
 export {

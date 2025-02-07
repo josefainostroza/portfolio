@@ -15,14 +15,9 @@ const StyledVisionContainer = styled.section`
 	padding: 300px;
 
 	@media (max-width: 768px) {
-		padding: 150px; /* Reduce padding en tablet */
-		gap: 40px; /* Reducir el gap en dispositivos más pequeños */
-	}
-
-	@media (max-width: 480px) {
-		padding: 80px; /* Ajuste de padding en móviles */
-		gap: 20px;
-		height: auto; /* Para que no haya un alto fijo */
+		gap: 40px;
+		padding: 30px;
+		text-align: left;
 	}
 `;
 
@@ -32,11 +27,6 @@ const StyledTitleVision = styled.h1`
 
 	@media (max-width: 768px) {
 		font-size: 50px; /* Ajustar tamaño de fuente en tablet */
-	}
-
-	@media (max-width: 480px) {
-		font-size: 30px; /* Ajustar tamaño de fuente en móviles */
-		text-align: center; /* Centrar el título en pantallas pequeñas */
 	}
 `;
 
@@ -48,11 +38,6 @@ const StyledDescription = styled.p`
 	@media (max-width: 768px) {
 		font-size: 20px; /* Ajustar tamaño de fuente en tablet */
 		width: 90%; /* Ancho ajustado en tablet */
-	}
-
-	@media (max-width: 480px) {
-		font-size: 16px; /* Ajustar tamaño de fuente en móvil */
-		width: 90%; /* Asegurarse que el texto no salga de la pantalla */
 	}
 `;
 

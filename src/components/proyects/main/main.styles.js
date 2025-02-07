@@ -31,11 +31,7 @@ const StyledContainer = styled.div`
 	position: relative;
 
 	@media (max-width: 768px) {
-		padding: 30px; // Reducimos el padding en tabletas
-	}
-
-	@media (max-width: 480px) {
-		padding: 20px; // Reducimos aún más el padding en móviles
+		padding: 40px;
 	}
 `;
 
@@ -46,11 +42,7 @@ const StyledContainerProyects = styled.div`
 	gap: 25px;
 
 	@media (max-width: 768px) {
-		gap: 20px; // Reducimos el espacio entre elementos en tabletas
-	}
-
-	@media (max-width: 480px) {
-		gap: 15px; // Ajustamos el espacio en móviles
+		gap: 25px;
 	}
 `;
 
@@ -62,17 +54,9 @@ const StyledContainerPar = styled.div`
 	align-items: flex-start;
 	padding: 0 250px;
 
-	@media (max-width: 1024px) {
-		padding: 0 150px; // Reducimos el padding en tabletas grandes
-	}
-
 	@media (max-width: 768px) {
-		flex-direction: column; // Cambiamos a columna en tabletas
-		padding: 0 50px; // Reducimos el padding
-	}
-
-	@media (max-width: 480px) {
-		padding: 0 20px; // Ajustamos el padding para móviles
+		flex-direction: column;
+		padding: 0 40px;
 	}
 `;
 
@@ -111,12 +95,6 @@ const StyledNameProyect = styled.button`
 		width: 300px; // Reducimos el tamaño del botón en tabletas
 		font-size: 16px; // Ajustamos el tamaño de fuente
 	}
-
-	@media (max-width: 480px) {
-		width: 100%; // Hacemos que el botón ocupe el 100% del contenedor en móviles
-		font-size: 14px; // Ajustamos el tamaño de fuente
-		padding: 8px 16px; // Ajustamos el padding
-	}
 `;
 
 const StyledLine = styled.div`
@@ -146,11 +124,6 @@ const StyledTitle = styled.h1`
 	@media (max-width: 768px) {
 		font-size: 40px; // Reducimos el tamaño del título en tabletas
 		padding: 80px 80px 40px 80px; // Ajustamos el padding
-	}
-
-	@media (max-width: 480px) {
-		font-size: 30px; // Reducimos aún más el tamaño del título en móviles
-		padding: 60px 40px 30px 40px; // Ajustamos el padding
 	}
 `;
 

@@ -11,6 +11,10 @@ const StyledNameJosefa = styled.h2`
 	font-size: 30px;
 	color: #fab413;
 	font-weight: 400;
+
+	@media (max-width: 768px) {
+		font-size: 20px;
+	}
 `;
 
 const StyledNameInostroza = styled.h2`
@@ -18,12 +22,16 @@ const StyledNameInostroza = styled.h2`
 	color: #fab413;
 	margin-top: 2px;
 	font-weight: 600;
+
+	@media (max-width: 768px) {
+		font-size: 20px;
+	}
 `;
 
 const StyledContainerName = styled.div`
 	position: fixed;
-	top: 20px;
-	right: 20px;
+	top: 60px;
+	right: 60px;
 	text-align: right;
 `;
 // const StyledLogo = styled.div`

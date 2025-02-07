@@ -8,12 +8,14 @@ export const TITLE_PROYECTS01 = [
 			{
 				name: 'Trailbi',
 				image: '/assets/Trailbi.png',
-				slug: 'trailbi'
+				slug: 'trailbi',
+				url: 'https://www.figma.com/proto/W2rqbWEH6CemH5Ogh4zSLE/Trailbi?node-id=6-57&t=JsGaWno46bE26TsO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Emigra Fácil',
 				image: '/assets/EmigraFacil.png',
-				slug: 'emigra-facil'
+				slug: 'emigra-facil',
+				url: 'https://www.figma.com/proto/qy5ME2MbKusqOt9gaJaMCM/Emigra-F%C3%A1cil?node-id=1-44&t=sT57CsUboDRiCHJA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'BuMu',
@@ -24,7 +26,8 @@ export const TITLE_PROYECTS01 = [
 			{
 				name: 'Techo',
 				image: '/assets/TechoParaChile.png',
-				slug: 'techo'
+				slug: 'techo',
+				url: 'https://www.figma.com/proto/5AdUxPj2KTGRmlIGpBCEyC/Techo-para-Chile?node-id=11-2&t=JsGaWno46bE26TsO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			}
 		]
 	},
@@ -74,17 +77,20 @@ export const TITLE_PROYECTS02 = [
 			{
 				name: 'Conqui Planet',
 				image: '/assets/ConquiPlanet.png',
-				slug: 'conqui-planet'
+				slug: 'conqui-planet',
+				url: 'https://www.figma.com/proto/wXhMr1tSSsCmQefbxPxA2U/Conqui-Planet?node-id=1-7&t=JsGaWno46bE26TsO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
-				name: 'Lugares en Valdivia y su Accesibilidad',
+				name: 'Valdivia y su Accesibilidad',
 				image: '/assets/LugaresDeValdivia.png',
-				slug: 'lugares-valdivia'
+				slug: 'lugares-valdivia',
+				url: 'https://www.figma.com/proto/7uGO1mbA1hSSGfrpKB5L3v/Lugares-de-valdivia-y-su-accesibilidad?node-id=1-2&t=YMI5Wb24hvWYrLSe-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
-				name: 'Limpieza de frutas para niños',
-				image: '/assets/LugaresDeValdivia.png',
-				slug: 'limpieza-frutas'
+				name: 'Auracuentos',
+				image: '/assets/Taller de Objetos Inteligentes.png',
+				slug: 'aura-cuentos',
+				url: 'https://www.figma.com/proto/PY1UEXS1LXZCTDgFHbiK1G/Untitled?node-id=3-2&p=f&t=HO4BGmqYCr3BwrJl-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			}
 		]
 	},
@@ -95,22 +101,26 @@ export const TITLE_PROYECTS02 = [
 			{
 				name: 'Redes Sociales',
 				image: '/assets/RedesSociales.jpg',
-				slug: 'redes-sociales'
+				slug: 'redes-sociales',
+				url: 'https://www.figma.com/proto/jVevA4xYCZ5uS6Vt6j3xic/Untitled?node-id=1-2&t=vdYebQJYK4D90mgV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Branding',
 				image: '/assets/logobranding.png',
-				slug: 'branding'
+				slug: 'branding',
+				url: 'https://www.figma.com/proto/04shrzYgcEXXt5lsG8VYvM/Branding?node-id=2-2&p=f&t=Ohl6itLrGehCKJCf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Presidiaria',
 				image: '/assets/portadaletra.png',
-				slug: 'presidiaria'
+				slug: 'presidiaria',
+				url: 'https://www.figma.com/proto/HtPrUbqWJv5aOxX8sK64i1/Presidiaria?node-id=1-2&t=w4Ff8cAJMPZbM24A-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Fotografía y Photoshop',
 				image: '/assets/Fotografia.jpg',
-				slug: 'fotografia-photoshop'
+				slug: 'fotografia-photoshop',
+				url: 'https://www.figma.com/proto/H8HWybSz3nsRqBD9OMsCVl/Untitled?node-id=6-281&t=tAcEleloTIjsYoW1-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			}
 		]
 	}

@@ -38,17 +38,6 @@ const StyledCircle = styled.div`
 		z-index: -1; /* Este borde va encima del borde borroso */
 	}
 
-	@media (max-width: 1024px) {
-		width: 300px;
-		height: 300px;
-		&::before,
-		&::after {
-			width: 300px;
-			height: 300px;
-			border-width: 15px;
-		}
-	}
-
 	@media (max-width: 768px) {
 		width: 250px;
 		height: 250px;
@@ -57,6 +46,7 @@ const StyledCircle = styled.div`
 			width: 250px;
 			height: 250px;
 			border-width: 10px;
+			top: 60px;
 		}
 	}
 `;
@@ -71,14 +61,11 @@ const StyledLogo = styled.img`
 	object-fit: contain;
 	z-index: 1;
 
-	@media (max-width: 1024px) {
-		width: 300px;
-		height: 300px;
-	}
-
 	@media (max-width: 768px) {
-		width: 250px;
-		height: 250px;
+		width: 350px;
+		height: 350px;
+		top: 61%;
+		left: 55%;
 	}
 `;
 
@@ -95,14 +82,6 @@ const StyledPorta = styled.h2`
 		justify-content: start;
 		align-items: start;
 	}
-	@media (max-width: 480px) {
-		font-size: 40px;
-		display: flex;
-		flex-direction: column;
-		justify-content: start;
-		align-items: start;
-		margin-top: -120%;
-	}
 `;
 
 const StyledName = styled.div`
@@ -113,12 +92,9 @@ const StyledName = styled.div`
 	gap: 550px;
 	top: 40%;
 
-	@media (max-width: 1024px) {
-		gap: 5px;
-	}
-
 	@media (max-width: 768px) {
 		gap: 2px;
+		top: 25%;
 	}
 `;
 
@@ -130,12 +106,8 @@ const StyledIcono = styled.img`
 	align-items: center;
 	top: 90%;
 
-	@media (max-width: 1024px) {
-		top: 93%;
-	}
-
 	@media (max-width: 768px) {
-		top: 95%;
+		display: none;
 	}
 `;
 

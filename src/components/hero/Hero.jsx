@@ -48,11 +48,13 @@ const Hero = () => {
 							</StyledLinks>
 						</Styledcontainericons>
 					</StyledContainerLinks>
+
 					<StyledButton
 						onClick={() => {
-							window.location.href = './public/Curriculum-Vitae_.pdf';
+							window.location.href = './public/Curriculum-JosefaInostroza.pdf';
 						}}
 					>
+						<img src='/assets/download.png' alt='' />
 						Descargar CV
 					</StyledButton>
 				</StyledHeroContainer>
