@@ -27,7 +27,7 @@ const StyledContainer = styled.div`
 	position: relative;
 
 	@media (max-width: 768px) {
-		padding: 40px;
+		padding: 20px;
 	}
 `;
 
@@ -52,7 +52,7 @@ const StyledContainerPar = styled.div`
 
 	@media (max-width: 768px) {
 		flex-direction: column;
-		padding: 0 40px;
+		padding: 0 10px;
 	}
 `;
 
@@ -101,7 +101,7 @@ const StyledLine = styled.div`
 
 	@media (max-width: 768px) {
 		height: 120px;
-		margin-right: 7px;
+		margin-right: 8px;
 	}
 `;
 
