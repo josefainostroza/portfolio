@@ -117,7 +117,7 @@ const CircleBackground = styled.div`
 
 const StyledImgPersonal = styled.img`
 	position: absolute;
-	top: -53px;
+	top: -35px;
 	left: 0;
 	width: 400px;
 	z-index: 1;
