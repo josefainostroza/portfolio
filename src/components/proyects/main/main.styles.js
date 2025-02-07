@@ -100,11 +100,8 @@ const StyledLine = styled.div`
 	margin-right: 38px;
 
 	@media (max-width: 768px) {
-		height: 120px; // Reducimos la altura de la línea en tabletas
-	}
-
-	@media (max-width: 480px) {
-		height: 80px; // Ajustamos la altura de la línea en móviles
+		height: 120px;
+		margin-right: 10px;
 	}
 `;
 

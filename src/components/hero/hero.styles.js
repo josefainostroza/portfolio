@@ -91,11 +91,6 @@ const CircleBackground = styled.div`
 		margin-left: 50%;
 		margin-top: 9%;
 
-		@media (max-width: 480px) {
-			width: 200px;
-			height: 200px;
-		}
-
 		@media (max-width: 768px) {
 			width: 200px;
 			height: 200px;
@@ -112,11 +107,6 @@ const CircleBackground = styled.div`
 		z-index: -1;
 		margin-left: 50%;
 		margin-top: 9%;
-
-		@media (max-width: 480px) {
-			width: 200px;
-			height: 200px;
-		}
 
 		@media (max-width: 768px) {
 			width: 200px;
