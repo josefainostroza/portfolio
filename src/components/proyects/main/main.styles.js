@@ -101,7 +101,7 @@ const StyledLine = styled.div`
 
 	@media (max-width: 768px) {
 		height: 120px;
-		margin-right: 10px;
+		margin-right: 7px;
 	}
 `;
 
