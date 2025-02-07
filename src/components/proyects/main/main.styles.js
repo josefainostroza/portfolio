@@ -61,11 +61,7 @@ const StyledTitleProyects = styled.h3`
 	font-weight: 800;
 
 	@media (max-width: 768px) {
-		font-size: 24px; // Reducimos el tamaño de fuente en tabletas
-	}
-
-	@media (max-width: 480px) {
-		font-size: 20px; // Ajustamos aún más el tamaño de fuente en móviles
+		font-size: 24px;
 	}
 `;
 
@@ -101,7 +97,7 @@ const StyledLine = styled.div`
 
 	@media (max-width: 768px) {
 		height: 120px;
-		margin-right: 8px;
+		margin-right: 15px;
 	}
 `;
 

@@ -110,7 +110,6 @@ const StyledIcono = styled.img`
 		display: none;
 	}
 `;
-
 export {
 	StyledContainer,
 	StyledCircle,

@@ -48,13 +48,13 @@ export const TITLE_PROYECTS01 = [
 				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
-				name: 'Interactive Card Details Form',
+				name: 'Interactive Card Form',
 				image: '/assets/Interactive-card.png',
 				slug: 'interactive-card-form',
 				url: 'https://github.com/josefainostroza/portfolio'
 			},
 			{
-				name: 'Sunnyside Agency Landing Page',
+				name: 'Sunnyside Agency Landing',
 				image: '/assets/Sunnyside-agency.png',
 				slug: 'sunnyside-agency',
 				url: 'https://github.com/josefainostroza/portfolio'

@@ -35,6 +35,9 @@ const StyledContainerName = styled.div`
 	text-align: right;
 
 	@media (max-width: 768px) {
+		position: static;
+		margin-top: 40px;
+		margin-right: 40px;
 	}
 `;
 // const StyledLogo = styled.div`

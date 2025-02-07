@@ -16,17 +16,17 @@ const StyledVisionContainer = styled.section`
 
 	@media (max-width: 768px) {
 		gap: 40px;
-		padding: 30px;
-		text-align: left;
+		padding: 20px;
+		margin: 0;
 	}
 `;
 
 const StyledTitleVision = styled.h1`
 	font-weight: 900;
-	font-size: 96px;
+	font-size: 80px;
 
 	@media (max-width: 768px) {
-		font-size: 50px; /* Ajustar tamaño de fuente en tablet */
+		font-size: 40px; /* Ajustar tamaño de fuente en tablet */
 	}
 `;
 
