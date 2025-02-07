@@ -128,9 +128,9 @@ const StyledImgPersonal = styled.img`
 		margin-top: 0%;
 	}
 
-	@media (max-width: 768px) {
+@media (max-width: 768px) {
 		width: 200px;
-	} */
+	} 
 `;
 const StyledContainerImgCircle = styled.div`
 	/* display: flex;
@@ -144,7 +144,7 @@ const StyledContainerImgCircle = styled.div`
 	position: relative;
 
 	@media (max-width: 768px) {
-		margin-bottom: 98px;
+		margin-bottom: 115px;
 		min-width: 300px;
 		height: 300px;
 	}
