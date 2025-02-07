@@ -46,7 +46,7 @@ const StyledCircle = styled.div`
 			width: 250px;
 			height: 250px;
 			border-width: 10px;
-			top: 60px;
+			top: 0px;
 		}
 	}
 `;
@@ -55,17 +55,16 @@ const StyledLogo = styled.img`
 	position: absolute;
 	width: 750px;
 	height: 750px;
-	top: 53%;
-	left: 53%;
-	transform: translate(-50%, -50%);
+	top: -40%;
+	left: 5%;
 	object-fit: contain;
 	z-index: 1;
 
 	@media (max-width: 768px) {
 		width: 350px;
 		height: 350px;
-		top: 61%;
-		left: 55%;
+		top: 7%;
+		left: 10%;
 	}
 `;
 
@@ -89,7 +88,7 @@ const StyledName = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 550px;
+	gap: 540px;
 	top: 40%;
 
 	@media (max-width: 768px) {
@@ -110,11 +109,20 @@ const StyledIcono = styled.img`
 		display: none;
 	}
 `;
+const StyledContainerLogoCircle = styled.div`
+	position: relative;
+	min-width: 400px;
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
 export {
 	StyledContainer,
 	StyledCircle,
 	StyledLogo,
 	StyledPorta,
 	StyledName,
-	StyledIcono
+	StyledIcono,
+	StyledContainerLogoCircle
 };

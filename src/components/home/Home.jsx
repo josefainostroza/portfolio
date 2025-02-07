@@ -1,6 +1,7 @@
 import {
 	StyledCircle,
 	StyledContainer,
+	StyledContainerLogoCircle,
 	StyledIcono,
 	StyledLogo,
 	StyledName,
@@ -14,10 +15,10 @@ const Home = () => {
 				<StyledPorta>PORTA</StyledPorta>
 				<StyledPorta>FOLIO</StyledPorta>
 			</StyledName>
-			<div>
+			<StyledContainerLogoCircle>
 				<StyledLogo src='/assets/LogoJI-02.png' alt='Logo' />
 				<StyledCircle></StyledCircle>
-			</div>
+			</StyledContainerLogoCircle>
 			<StyledIcono src='/assets/IconoDeslizar.png' alt='Icono' />
 		</StyledContainer>
 	);
