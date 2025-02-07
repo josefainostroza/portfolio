@@ -33,6 +33,9 @@ const StyledContainerName = styled.div`
 	top: 60px;
 	right: 60px;
 	text-align: right;
+
+	@media (max-width: 768px) {
+	}
 `;
 // const StyledLogo = styled.div`
 // 	font-size: 1.5rem;

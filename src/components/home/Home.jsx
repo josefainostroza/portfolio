@@ -14,8 +14,10 @@ const Home = () => {
 				<StyledPorta>PORTA</StyledPorta>
 				<StyledPorta>FOLIO</StyledPorta>
 			</StyledName>
-			<StyledLogo src='/assets/LogoJI-02.png' alt='Logo' />
-			<StyledCircle></StyledCircle>
+			<div>
+				<StyledLogo src='/assets/LogoJI-02.png' alt='Logo' />
+				<StyledCircle></StyledCircle>
+			</div>
 			<StyledIcono src='/assets/IconoDeslizar.png' alt='Icono' />
 		</StyledContainer>
 	);
