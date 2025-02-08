@@ -121,17 +121,18 @@ const StyledImgPersonal = styled.img`
 	left: 0;
 	width: 400px;
 	z-index: 1;
-	/* 
+`;
+/* 
 	@media (max-width: 480px) {
 		width: 200px;
 		margin-left: 0%;
 		margin-top: 0%;
 	}
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 		width: 200px;
 	} 
-`;
+`; */
 const StyledContainerImgCircle = styled.div`
 	/* display: flex;
 	flex-direction: row;
