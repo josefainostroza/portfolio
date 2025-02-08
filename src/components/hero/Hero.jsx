@@ -51,7 +51,7 @@ const Hero = () => {
 
 					<StyledButton
 						onClick={() => {
-							window.location.href = './public/Curriculum-JosefaInostroza.pdf';
+							window.location.href = '/Curriculum-JosefaInostroza.pdf';
 						}}
 					>
 						<img src='/assets/download.png' alt='' />
