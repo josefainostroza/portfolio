@@ -26,7 +26,7 @@ export const TITLE_PROYECTS01 = [
 			{
 				name: 'Mcflurry-KitKat',
 				image: '/assets/TechoParaChile.png',
-				slug: 'techo',
+				slug: 'mcdo',
 				url: 'https://promos.mcdonalds.es/mcflurry/kitkat/'
 			}
 		]
