@@ -6,6 +6,24 @@ export const TITLE_PROYECTS01 = [
 		title: 'DISEÑO UX/UI',
 		projects: [
 			{
+				name: 'Mcflurry-KitKat',
+				image: '/assets/kitkat.png',
+				slug: 'mcdo',
+				url: 'https://promos.mcdonalds.es/mcflurry/kitkat/'
+			},
+			{
+				name: 'Mcdonalds Impresindibles',
+				image: '/assets/impresindibles.png',
+				slug: 'mcdo2',
+				url: 'https://https://mccreators.mcdonalds.es/imprescindibles/'
+			},
+			{
+				name: 'Santander',
+				image: '/assets/santander.png',
+				slug: 'santander',
+				url: 'https://https://www.bancosantander.es/particulares/cuentas-bancarias/'
+			},
+			{
 				name: 'Trailbi',
 				image: '/assets/Trailbi.png',
 				slug: 'trailbi',
@@ -23,12 +41,7 @@ export const TITLE_PROYECTS01 = [
 				slug: 'bumu',
 				url: 'https://www.figma.com/proto/lDtmVFqyoXua3H8qWjuARk/App-Museo?node-id=635-7050&t=W0k5iUSevV1GZ9WT-1&scaling=scale-down-width&content-scaling=fixed&page-id=422%3A7063&starting-point-node-id=635%3A7050'
 			},
-			{
-				name: 'Mcflurry-KitKat',
-				image: '/assets/TechoParaChile.png',
-				slug: 'mcdo',
-				url: 'https://promos.mcdonalds.es/mcflurry/kitkat/'
-			}
+			
 		]
 	},
 	{

@@ -2,6 +2,20 @@ export const PROJECT_DETAILS = {
 	uxui: {
 		projects: [
 			{
+				slug: 'mcdo',
+				img: '/assets/kitkat.png'
+			},
+
+			{
+				slug: 'mcdo2',
+				img: '/assets/impresindibles.png'
+			},
+			{
+				slug: 'santander',
+				img: '/assets/santander.png'
+			},
+
+			{
 				slug: 'trailbi',
 				img: '/assets/TRAILBIPROYECTOYES.png',
 				video: '/assets/videos/Testeotrailvi.gif'
@@ -16,10 +30,7 @@ export const PROJECT_DETAILS = {
 				img: '/assets/bumucompleto.svg',
 				img02: '/assets/Designsystembumu.svg'
 			},
-			{
-				slug: 'mcdo',
-				img: '/assets/TechoProyectoo.svg'
-			}
+			
 		]
 	},
 	desarrollo: {
