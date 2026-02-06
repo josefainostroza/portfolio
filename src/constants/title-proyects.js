@@ -15,7 +15,7 @@ export const TITLE_PROYECTS01 = [
 				name: 'Mcdonalds Impresindibles',
 				image: '/assets/impresindibles.png',
 				slug: 'mcdo2',
-				url: 'https://https://mccreators.mcdonalds.es/imprescindibles/'
+				url: 'https://https://www.figma.com/proto/h8Gv7PlCss05Boji3pKpPY/Sin-t%C3%ADtulo?node-id=17-4&t=gtceYRGZ4VpbEohn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Santander',
