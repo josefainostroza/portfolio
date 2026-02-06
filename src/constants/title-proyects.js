@@ -15,13 +15,13 @@ export const TITLE_PROYECTS01 = [
 				name: 'Mcdonalds Impresindibles',
 				image: '/assets/impresindibles.png',
 				slug: 'mcdo2',
-				url: 'https://https://www.figma.com/proto/h8Gv7PlCss05Boji3pKpPY/Sin-t%C3%ADtulo?node-id=17-4&t=gtceYRGZ4VpbEohn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+				url: 'https://www.figma.com/proto/h8Gv7PlCss05Boji3pKpPY/Sin-t%C3%ADtulo?node-id=17-4&t=gtceYRGZ4VpbEohn-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
 				name: 'Santander',
 				image: '/assets/santander.png',
 				slug: 'santander',
-				url: 'https://https://www.bancosantander.es/particulares/cuentas-bancarias/'
+				url: 'https://www.bancosantander.es/particulares/cuentas-bancarias/'
 			},
 			{
 				name: 'Trailbi',
