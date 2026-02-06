@@ -24,10 +24,10 @@ export const TITLE_PROYECTS01 = [
 				url: 'https://www.figma.com/proto/lDtmVFqyoXua3H8qWjuARk/App-Museo?node-id=635-7050&t=W0k5iUSevV1GZ9WT-1&scaling=scale-down-width&content-scaling=fixed&page-id=422%3A7063&starting-point-node-id=635%3A7050'
 			},
 			{
-				name: 'Techo',
+				name: 'Mcflurry-KitKat',
 				image: '/assets/TechoParaChile.png',
 				slug: 'techo',
-				url: 'https://www.figma.com/proto/5AdUxPj2KTGRmlIGpBCEyC/Techo-para-Chile?node-id=11-2&t=JsGaWno46bE26TsO-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
+				url: 'https://promos.mcdonalds.es/mcflurry/kitkat/'
 			}
 		]
 	},

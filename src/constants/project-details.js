@@ -17,7 +17,7 @@ export const PROJECT_DETAILS = {
 				img02: '/assets/Designsystembumu.svg'
 			},
 			{
-				slug: 'techo',
+				slug: 'Mcflurry-KitKat',
 				img: '/assets/TechoProyectoo.svg'
 			}
 		]
