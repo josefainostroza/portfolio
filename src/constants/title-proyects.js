@@ -112,13 +112,19 @@ export const TITLE_PROYECTS02 = [
 		title: 'DISEÑO GRÁFICO',
 		projects: [
 			{
+				name: 'Branding Moda',
+				image: '/assets/addicted-fondo.png',
+				slug: 'moda',
+				url: 'https://www.figma.com/proto/h8Gv7PlCss05Boji3pKpPY/Sin-t%C3%ADtulo?page-id=0%3A1&node-id=34-2&viewport=-655%2C891%2C0.06&t=tVHewXc7LRMlqBTu-1&scaling=min-zoom&content-scaling=fixed'
+			},
+			{
 				name: 'Redes Sociales',
 				image: '/assets/RedesSociales.jpg',
 				slug: 'redes-sociales',
 				url: 'https://www.figma.com/proto/jVevA4xYCZ5uS6Vt6j3xic/Untitled?node-id=1-2&t=vdYebQJYK4D90mgV-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'
 			},
 			{
-				name: 'Branding',
+				name: 'Re Branding',
 				image: '/assets/logobranding.png',
 				slug: 'branding',
 				url: 'https://www.figma.com/proto/04shrzYgcEXXt5lsG8VYvM/Branding?node-id=2-2&p=f&t=Ohl6itLrGehCKJCf-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1'

@@ -87,6 +87,10 @@ export const PROJECT_DETAILS = {
 	grafico: {
 		projects: [
 			{
+				slug: 'moda',
+				img: '/assets/addicted-fondo.png'
+			},
+			{
 				slug: 'redes-sociales',
 				img: '/assets/RLANDING.jpg'
 			},
