@@ -20,13 +20,16 @@ const Hero = () => {
 				<StyledHeroContainer>
 					<StyledTitle>¡Hola! Soy Josefa</StyledTitle>
 					<StyledText>
-						Diseñadora de Interacción Digital y Gráfica con Máster en UX/UI y
+						Diseñadora de Interacción Digital y Gráfica con Máster en UX/UI y Desarrollo Web. Combino una base sólida en branding, diseño visual y comunicación digital con experiencia en diseño de interfaces y productos centrados en el usuario.
+
+Me interesa crear experiencias coherentes en todos los puntos de contacto, desde productos digitales y páginas web hasta contenido para redes sociales, cuidando siempre la identidad visual y la claridad del mensaje. Integro creatividad y tecnología para transformar ideas en soluciones funcionales y visualmente consistentes.
+						{/*Diseñadora de Interacción Digital y Gráfica con Máster en UX/UI y
 						Desarrollo Web. Creo experiencias digitales intuitivas y funcionales
 						que logren conectar con las personas. Desarrollo páginas web
 						dinámicas con JavaScript y React, asegurándome de que cada proyecto
 						sea visualmente impactante y funcional. Mi enfoque está en el
 						usuario, la creatividad y la tecnología, transformando ideas en
-						soluciones digitales efectivas.
+						soluciones digitales efectivas.*/}
 					</StyledText>
 					<StyledContainerLinks>
 						<Styledcontainericons>
